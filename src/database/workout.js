@@ -1,7 +1,7 @@
 const DB = require('./db.json');
 
-const getAllWorkout = () => {
+const getAllWorkouts = () => {
     return DB.workouts;
-}
+};
 
-module.exports = {getAllWorkout}
+module.exports = { getAllWorkouts }
