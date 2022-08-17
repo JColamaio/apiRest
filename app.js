@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000;
 const v1WorkoutRouter = require('./src/v1/routes/workoutRoutes');
 // const v2Router = require('./src/v1/routes/routes');
 
-app.listen()
+app.use(express.json());
 app.use(express());
 
 
